@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 02 17:59:43 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40461 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.WelcomePageTest.UsernameLableTest()'><b>UsernameLableTest</b><br>Test class: com.bridgelabz.qa.testcases.WelcomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.ForgottPasswordPageTest.forgottPasswordPageTitleTest()'><b>forgottPasswordPageTitleTest</b><br>Test class: com.bridgelabz.qa.testcases.ForgottPasswordPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.ForgottPasswordPageTest@13deb50e</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.LoginPageTest.forgottPasswordTest()'><b>forgottPasswordTest</b><br>Test class: com.bridgelabz.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.IndexPageTest.indexPageTitleTest()'><b>indexPageTitleTest</b><br>Test class: com.bridgelabz.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.LoginPageTest.loginBtnTest()'><b>loginBtnTest</b><br>Test class: com.bridgelabz.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.IndexPageTest.loginLinkTest()'><b>loginLinkTest</b><br>Test class: com.bridgelabz.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.bridgelabz.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.RegisterPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.bridgelabz.qa.testcases.RegisterPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.RegisterPageTest@464bee09</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.bridgelabz.qa.testcases.LoginPageTest<br>Parameters: LoginUser [username=sachin@123, password=12345]</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.bridgelabz.qa.testcases.LoginPageTest<br>Parameters: LoginUser [username=john@123, password=12345]</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.WelcomePageTest.logoutTest()'><b>logoutTest</b><br>Test class: com.bridgelabz.qa.testcases.WelcomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.IndexPageTest.registerLinkTest()'><b>registerLinkTest</b><br>Test class: com.bridgelabz.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.ResetPasswordPageTest.resetPasswordPageTitleTest()'><b>resetPasswordPageTitleTest</b><br>Test class: com.bridgelabz.qa.testcases.ResetPasswordPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.ResetPasswordPageTest@6eebc39e</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.ResetPasswordPageTest.submitTest()'><b>submitTest</b><br>Test class: com.bridgelabz.qa.testcases.ResetPasswordPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.ResetPasswordPageTest@6eebc39e</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.RegisterPageTest.submitTest()'><b>submitTest</b><br>Test class: com.bridgelabz.qa.testcases.RegisterPageTest<br>Parameters: RegisterUser [username=sachin@123, name=sachin barpete, mobileNo=8109555221, email=barpetesachin@gmail.com, address=vashi, password=12345, confirmPassword=12345]</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.RegisterPageTest@464bee09</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.RegisterPageTest.submitTest()'><b>submitTest</b><br>Test class: com.bridgelabz.qa.testcases.RegisterPageTest<br>Parameters: RegisterUser [username=john@123, name=john, mobileNo=9039417404, email=john123@gmail.com, address=london, password=12345, confirmPassword=12345]</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.RegisterPageTest@464bee09</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.ForgottPasswordPageTest.submitTest()'><b>submitTest</b><br>Test class: com.bridgelabz.qa.testcases.ForgottPasswordPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.ForgottPasswordPageTest@13deb50e</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.WelcomePageTest.videoLinkTest()'><b>videoLinkTest</b><br>Test class: com.bridgelabz.qa.testcases.WelcomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.WelcomePageTest.websiteLinkTest()'><b>websiteLinkTest</b><br>Test class: com.bridgelabz.qa.testcases.WelcomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac</td></tr>
+<tr>
+<td title='com.bridgelabz.qa.testcases.WelcomePageTest.welcomePageTitleTest()'><b>welcomePageTitleTest</b><br>Test class: com.bridgelabz.qa.testcases.WelcomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac</td></tr>
+</table><p>
+</body>
+</html>

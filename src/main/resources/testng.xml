@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Web Application Test Automation Suite">
+
+	<listeners>
+		<listener
+			class-name="com.bridgelabz.qa.extentreport.ExtentReportListener" />
+	</listeners>
+	
+	<test name="Login Application test cases">
+		<classes>
+			<class name="com.bridgelabz.qa.testcases.IndexPageTest" />
+			<class name="com.bridgelabz.qa.testcases.LoginPageTest" />
+			<class name="com.bridgelabz.qa.testcases.RegisterPageTest" />
+			<class name="com.bridgelabz.qa.testcases.WelcomePageTest" />
+			<class name="com.bridgelabz.qa.testcases.ForgottPasswordPageTest" />
+			<class name="com.bridgelabz.qa.testcases.ResetPasswordPageTest" />
+			<class name="com.bridgelabz.qa.testcases.VideoPageTest"/>
+		</classes>
+	</test>
+</suite>

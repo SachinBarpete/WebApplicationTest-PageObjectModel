@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="40461" started-at="2019-12-02T17:59:43 IST" finished-at="2019-12-02T18:00:24 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="40461" started-at="2019-12-02T17:59:43 IST" finished-at="2019-12-02T18:00:24 IST">
+      <class name="com.bridgelabz.qa.testcases.RegisterPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.RegisterPageTest@464bee09]" name="setUp" is-config="true" duration-ms="1305" started-at="2019-12-02T18:00:00 IST" finished-at="2019-12-02T18:00:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.bridgelabz.qa.testcases.RegisterPageTest@464bee09]" name="loginPageTitleTest" duration-ms="11" started-at="2019-12-02T18:00:01 IST" finished-at="2019-12-02T18:00:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.RegisterPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="67" started-at="2019-12-02T18:00:01 IST" finished-at="2019-12-02T18:00:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.RegisterPageTest@464bee09]" name="setUp" is-config="true" duration-ms="1863" started-at="2019-12-02T18:00:01 IST" finished-at="2019-12-02T18:00:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="submitTest(com.bridgelabz.qa.model.RegisterUser)[pri:2, instance:com.bridgelabz.qa.testcases.RegisterPageTest@464bee09]" name="submitTest" duration-ms="583" started-at="2019-12-02T18:00:03 IST" data-provider="getUserRegisterData" finished-at="2019-12-02T18:00:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RegisterUser [username=sachin@123, name=sachin barpete, mobileNo=8109555221, email=barpetesachin@gmail.com, address=vashi, password=12345, confirmPassword=12345]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.RegisterPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="115" started-at="2019-12-02T18:00:04 IST" finished-at="2019-12-02T18:00:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.RegisterPageTest@464bee09]" name="setUp" is-config="true" duration-ms="2131" started-at="2019-12-02T18:00:04 IST" finished-at="2019-12-02T18:00:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="submitTest(com.bridgelabz.qa.model.RegisterUser)[pri:2, instance:com.bridgelabz.qa.testcases.RegisterPageTest@464bee09]" name="submitTest" duration-ms="653" started-at="2019-12-02T18:00:06 IST" data-provider="getUserRegisterData" finished-at="2019-12-02T18:00:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RegisterUser [username=john@123, name=john, mobileNo=9039417404, email=john123@gmail.com, address=london, password=12345, confirmPassword=12345]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.RegisterPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="225" started-at="2019-12-02T18:00:07 IST" finished-at="2019-12-02T18:00:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.qa.testcases.RegisterPageTest -->
+      <class name="com.bridgelabz.qa.testcases.IndexPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac]" name="setUp" is-config="true" duration-ms="3056" started-at="2019-12-02T17:59:43 IST" finished-at="2019-12-02T17:59:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="indexPageTitleTest()[pri:1, instance:com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac]" name="indexPageTitleTest" duration-ms="9" started-at="2019-12-02T17:59:46 IST" finished-at="2019-12-02T17:59:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indexPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac]" name="tearDown" is-config="true" duration-ms="66" started-at="2019-12-02T17:59:46 IST" finished-at="2019-12-02T17:59:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac]" name="setUp" is-config="true" duration-ms="1009" started-at="2019-12-02T17:59:47 IST" finished-at="2019-12-02T17:59:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginLinkTest()[pri:2, instance:com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac]" name="loginLinkTest" duration-ms="97" started-at="2019-12-02T17:59:48 IST" finished-at="2019-12-02T17:59:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac]" name="tearDown" is-config="true" duration-ms="65" started-at="2019-12-02T17:59:48 IST" finished-at="2019-12-02T17:59:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac]" name="setUp" is-config="true" duration-ms="936" started-at="2019-12-02T17:59:48 IST" finished-at="2019-12-02T17:59:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerLinkTest()[pri:3, instance:com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac]" name="registerLinkTest" duration-ms="90" started-at="2019-12-02T17:59:49 IST" finished-at="2019-12-02T17:59:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.IndexPageTest@146ba0ac]" name="tearDown" is-config="true" duration-ms="67" started-at="2019-12-02T17:59:49 IST" finished-at="2019-12-02T17:59:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.qa.testcases.IndexPageTest -->
+      <class name="com.bridgelabz.qa.testcases.ForgottPasswordPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.ForgottPasswordPageTest@13deb50e]" name="setUp" is-config="true" duration-ms="1231" started-at="2019-12-02T18:00:21 IST" finished-at="2019-12-02T18:00:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgottPasswordPageTitleTest()[pri:1, instance:com.bridgelabz.qa.testcases.ForgottPasswordPageTest@13deb50e]" name="forgottPasswordPageTitleTest" duration-ms="4" started-at="2019-12-02T18:00:22 IST" finished-at="2019-12-02T18:00:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgottPasswordPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.ForgottPasswordPageTest@13deb50e]" name="tearDown" is-config="true" duration-ms="123" started-at="2019-12-02T18:00:22 IST" finished-at="2019-12-02T18:00:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.ForgottPasswordPageTest@13deb50e]" name="setUp" is-config="true" duration-ms="1374" started-at="2019-12-02T18:00:22 IST" finished-at="2019-12-02T18:00:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="submitTest()[pri:2, instance:com.bridgelabz.qa.testcases.ForgottPasswordPageTest@13deb50e]" name="submitTest" duration-ms="378" started-at="2019-12-02T18:00:23 IST" finished-at="2019-12-02T18:00:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.ForgottPasswordPageTest@13deb50e]" name="tearDown" is-config="true" duration-ms="169" started-at="2019-12-02T18:00:24 IST" finished-at="2019-12-02T18:00:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.qa.testcases.ForgottPasswordPageTest -->
+      <class name="com.bridgelabz.qa.testcases.WelcomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="3220" started-at="2019-12-02T18:00:07 IST" finished-at="2019-12-02T18:00:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="welcomePageTitleTest()[pri:1, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="welcomePageTitleTest" duration-ms="7" started-at="2019-12-02T18:00:10 IST" finished-at="2019-12-02T18:00:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="569" started-at="2019-12-02T18:00:10 IST" finished-at="2019-12-02T18:00:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="1964" started-at="2019-12-02T18:00:11 IST" finished-at="2019-12-02T18:00:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="UsernameLableTest()[pri:2, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="UsernameLableTest" duration-ms="89" started-at="2019-12-02T18:00:13 IST" finished-at="2019-12-02T18:00:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsernameLableTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="69" started-at="2019-12-02T18:00:13 IST" finished-at="2019-12-02T18:00:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="2223" started-at="2019-12-02T18:00:13 IST" finished-at="2019-12-02T18:00:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="videoLinkTest()[pri:3, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="videoLinkTest" duration-ms="1392" started-at="2019-12-02T18:00:15 IST" finished-at="2019-12-02T18:00:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="275" started-at="2019-12-02T18:00:16 IST" finished-at="2019-12-02T18:00:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="1998" started-at="2019-12-02T18:00:17 IST" finished-at="2019-12-02T18:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="websiteLinkTest()[pri:4, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="websiteLinkTest" duration-ms="99" started-at="2019-12-02T18:00:19 IST" finished-at="2019-12-02T18:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- websiteLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="68" started-at="2019-12-02T18:00:19 IST" finished-at="2019-12-02T18:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="1509" started-at="2019-12-02T18:00:19 IST" finished-at="2019-12-02T18:00:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logoutTest()[pri:5, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="logoutTest" duration-ms="87" started-at="2019-12-02T18:00:20 IST" finished-at="2019-12-02T18:00:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.WelcomePageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="116" started-at="2019-12-02T18:00:20 IST" finished-at="2019-12-02T18:00:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.qa.testcases.WelcomePageTest -->
+      <class name="com.bridgelabz.qa.testcases.ResetPasswordPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.ResetPasswordPageTest@6eebc39e]" name="setUp" is-config="true" duration-ms="1529" started-at="2019-12-02T17:59:56 IST" finished-at="2019-12-02T17:59:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="resetPasswordPageTitleTest()[pri:1, instance:com.bridgelabz.qa.testcases.ResetPasswordPageTest@6eebc39e]" name="resetPasswordPageTitleTest" duration-ms="4" started-at="2019-12-02T17:59:58 IST" finished-at="2019-12-02T17:59:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPasswordPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.ResetPasswordPageTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="125" started-at="2019-12-02T17:59:58 IST" finished-at="2019-12-02T17:59:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.ResetPasswordPageTest@6eebc39e]" name="setUp" is-config="true" duration-ms="1825" started-at="2019-12-02T17:59:58 IST" finished-at="2019-12-02T18:00:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="submitTest()[pri:2, instance:com.bridgelabz.qa.testcases.ResetPasswordPageTest@6eebc39e]" name="submitTest" duration-ms="216" started-at="2019-12-02T18:00:00 IST" finished-at="2019-12-02T18:00:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.ResetPasswordPageTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="67" started-at="2019-12-02T18:00:00 IST" finished-at="2019-12-02T18:00:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.qa.testcases.ResetPasswordPageTest -->
+      <class name="com.bridgelabz.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="936" started-at="2019-12-02T17:59:49 IST" finished-at="2019-12-02T17:59:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginBtnTest()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="loginBtnTest" duration-ms="241" started-at="2019-12-02T17:59:50 IST" finished-at="2019-12-02T17:59:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="66" started-at="2019-12-02T17:59:50 IST" finished-at="2019-12-02T17:59:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="1525" started-at="2019-12-02T17:59:50 IST" finished-at="2019-12-02T17:59:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="loginPageTitleTest" duration-ms="4" started-at="2019-12-02T17:59:52 IST" finished-at="2019-12-02T17:59:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="69" started-at="2019-12-02T17:59:52 IST" finished-at="2019-12-02T17:59:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="993" started-at="2019-12-02T17:59:52 IST" finished-at="2019-12-02T17:59:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(com.bridgelabz.qa.model.LoginUser)[pri:2, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="loginTest" duration-ms="239" started-at="2019-12-02T17:59:53 IST" data-provider="loginTestdata" finished-at="2019-12-02T17:59:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginUser [username=sachin@123, password=12345]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="120" started-at="2019-12-02T17:59:53 IST" finished-at="2019-12-02T17:59:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="1209" started-at="2019-12-02T17:59:53 IST" finished-at="2019-12-02T17:59:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(com.bridgelabz.qa.model.LoginUser)[pri:2, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="loginTest" duration-ms="236" started-at="2019-12-02T17:59:54 IST" data-provider="loginTestdata" finished-at="2019-12-02T17:59:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginUser [username=john@123, password=12345]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="120" started-at="2019-12-02T17:59:55 IST" finished-at="2019-12-02T17:59:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="1273" started-at="2019-12-02T17:59:55 IST" finished-at="2019-12-02T17:59:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgottPasswordTest()[pri:3, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="forgottPasswordTest" duration-ms="101" started-at="2019-12-02T17:59:56 IST" finished-at="2019-12-02T17:59:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgottPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.qa.testcases.LoginPageTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="69" started-at="2019-12-02T17:59:56 IST" finished-at="2019-12-02T17:59:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.qa.testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

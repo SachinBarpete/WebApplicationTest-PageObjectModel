@@ -1,0 +1,15 @@
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/pages/WelcomePage.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/pages/ForgottPasswordPage.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/model/RegisterUser.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/util/TestUtil.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/pages/IndexPage.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/pages/WebsitePage.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/pages/VideoPage.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/util/WebEventListener.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/base/TestBase.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/pages/RegisterPage.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/pages/ResetPasswordPage.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/model/LoginUser.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/pages/LoginPage.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/extentreport/ExtentReportListener.java
+/home/bridglabz/Selenium/WebAppTest/src/main/java/com/bridgelabz/qa/excelreport/GenrateExcelReport.java
